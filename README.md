@@ -32,3 +32,4 @@ Follow these steps to set up the project locally:
 
    npm run dev
 
+##Contributions are welcome! Feel free to open issues or submit pull requests to improve the functionality or design.
