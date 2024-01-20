@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Game Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Game Explorer is a web application built with ReactJS, TypeScript, and Chakra UI, designed to simplify the search and exploration of games.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User-Friendly Interface**: Enjoy a seamless and intuitive experience while searching and exploring various games.
 
-## Expanding the ESLint configuration
+- **Advanced Search**: Effortlessly find your favorite games by applying filters based on genres, platforms, and release dates.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Responsive Design**: Chakra UI ensures a modern and responsive layout, providing an optimal viewing experience across devices.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **ReactJS**: A powerful JavaScript library for building interactive user interfaces.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **TypeScript (ts)**: Enhance your codebase with static typing for improved developer experience and code reliability.
+
+- **Chakra UI**: A simple, modular, and accessible component library that helps you build consistent and beautiful user interfaces in React applications.
+
+## Getting Started
+
+Follow these steps to set up the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/game-explorer.git
